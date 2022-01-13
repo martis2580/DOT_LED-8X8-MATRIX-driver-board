@@ -137,12 +137,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 4100 6900 4100
 Wire Wire Line
-	7300 3890 7300 3670
-Wire Wire Line
 	6800 3700 6800 3670
 Wire Wire Line
 	6800 3670 7300 3670
-Connection ~ 7300 3670
 Wire Wire Line
 	7300 3670 7300 3610
 $Comp
@@ -280,7 +277,6 @@ F 3 "~" H 6470 5650 50  0001 C CNN
 	1    6470 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 6470 5500
 $Comp
 L power:GND #PWR0104
 U 1 1 61DFCCF3
@@ -294,8 +290,6 @@ F 3 "" H 6470 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6470 5900 6470 5800
-Wire Wire Line
-	6470 5500 6890 5500
 Text GLabel 6900 5600 0    50   Input ~ 0
 CK
 Text GLabel 3740 6450 0    50   Input ~ 0
@@ -324,4 +318,10 @@ Text GLabel 7700 5700 2    50   Input ~ 0
 DOUT
 Text GLabel 3750 7250 0    50   Input ~ 0
 DOUT
+Wire Wire Line
+	7300 3900 7300 3670
+Connection ~ 7300 3670
+Wire Wire Line
+	6470 5500 6900 5500
+Connection ~ 6470 5500
 $EndSCHEMATC

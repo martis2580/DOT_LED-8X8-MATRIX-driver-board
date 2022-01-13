@@ -137,12 +137,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 4100 6900 4100
 Wire Wire Line
-	7300 3890 7300 3670
-Wire Wire Line
 	6800 3700 6800 3670
 Wire Wire Line
 	6800 3670 7300 3670
-Connection ~ 7300 3670
 Wire Wire Line
 	7300 3670 7300 3610
 $Comp
@@ -214,7 +211,7 @@ U 1 1 61DF5BBB
 P 3940 6250
 F 0 "DATA_IN1" H 4020 6292 50  0000 L CNN
 F 1 "Conn_01x05" H 4020 6201 50  0000 L CNN
-F 2 "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical" H 3940 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 3940 6250 50  0001 C CNN
 F 3 "~" H 3940 6250 50  0001 C CNN
 	1    3940 6250
 	1    0    0    -1  
@@ -235,7 +232,7 @@ U 1 1 61DF9859
 P 3950 7250
 F 0 "DATA_OUT1" H 4030 7292 50  0000 L CNN
 F 1 "Conn_01x05" H 4030 7201 50  0000 L CNN
-F 2 "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical" H 3950 7250 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 3950 7250 50  0001 C CNN
 F 3 "~" H 3950 7250 50  0001 C CNN
 	1    3950 7250
 	1    0    0    -1  
@@ -324,4 +321,7 @@ Text GLabel 7700 5700 2    50   Input ~ 0
 DOUT
 Text GLabel 3750 7250 0    50   Input ~ 0
 DOUT
+Wire Wire Line
+	7300 3900 7300 3670
+Connection ~ 7300 3670
 $EndSCHEMATC
